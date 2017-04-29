@@ -1,6 +1,6 @@
 <?php
     header('Content-Type: text/html; charset=UTF-8');
-    require 'mysql_config.php';
+    require '../mysql_config.php';
     if(!isset($_COOKIE['name']))
     {
       header('Location:../log_in.php');
